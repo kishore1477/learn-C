@@ -13,7 +13,25 @@
 //     }
 //     return 0;
 // }
-// print even number
+// // print even number
+// int main(){
+//     int n=0,i=1;
+//     // int n = 10,i=1;
+//     printf("Enter the last number:");
+//     scanf("%d",&n);
+//     while (i<n)
+//     {
+//         if (i%2==0)
+//         {
+//           printf("%d\n",i);
+//         }
+        
+//         // printf("%d\n",i);
+//         i++;
+//     }
+//     return 0;
+// }
+// print odd number
 int main(){
     int n=0,i=1;
     // int n = 10,i=1;
@@ -21,7 +39,7 @@ int main(){
     scanf("%d",&n);
     while (i<n)
     {
-        if (i%2==0)
+        if (i%2 !=0)
         {
           printf("%d\n",i);
         }
