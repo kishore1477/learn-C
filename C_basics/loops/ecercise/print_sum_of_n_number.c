@@ -41,26 +41,54 @@ int main(){
 // printf(" sum is %d \n", sum);
 
 
-    // sum of odd number
-        int start_num=0, end_num=0, sum=0;
+//     // sum of odd number
+//         int start_num=0, end_num=0, sum=0;
+//         printf("\" Welcome to sum of even number portion \" \n");
+//   printf("Enter a starting number:\n");
+//   scanf("%d",&start_num);
+//   printf("Enter a Ending number:\n");
+//   scanf("%d",&end_num);
+// //   printf("The sum of %d is :\n",n);
+// printf("The sum of odd numbers from %d to %d is: \n",start_num, end_num);
+
+// while (start_num<=end_num)
+// {
+//     if(start_num %2 != 0){
+// printf("%d\n",start_num);
+//     sum = sum + start_num;
+
+//     }
+//     // printf("%d + %d =  %d \n",start_num,sum);
+//     start_num++;
+// }
+// printf("sum is %d :",sum );
+
+    // sum of  even and odd  number
+        int start_num=0, end_num=0, Esum=0 , Osum=0;
         printf("\" Welcome to sum of even number portion \" \n");
   printf("Enter a starting number:\n");
   scanf("%d",&start_num);
   printf("Enter a Ending number:\n");
   scanf("%d",&end_num);
 //   printf("The sum of %d is :\n",n);
-printf("The sum of odd numbers from %d to %d is: \n",start_num, end_num);
+printf("The sum of even and  odd numbers from %d to %d is: \n",start_num, end_num);
 
 while (start_num<=end_num)
 {
-    if(start_num %2 != 0){
-printf("%d\n",start_num);
-    sum = sum + start_num;
+    if(start_num %2 == 0){
+      
+    Esum = Esum + start_num;
+
+    }else{
+// printf("%d\n",start_num);
+
+    Osum = Osum + start_num;
 
     }
     // printf("%d + %d =  %d \n",start_num,sum);
     start_num++;
 }
-printf("sum is %d :",sum );
+printf("sum  of even is %d :\n",Esum );
+printf("sum  of Odd is %d :",Osum );
     return 0;
 }
