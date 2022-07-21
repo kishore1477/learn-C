@@ -59,6 +59,7 @@ int main()
         for (int j = 0; j < c; j++)
         {
         add[i][j]= m1[i][j] + m2[i][j];
+        printf("%d + %d  ",m1[i][j],m2[i][j]);
         }
         printf("\n");
 
