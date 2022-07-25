@@ -81,8 +81,9 @@ for ( i = 0; i < r; i++)
         for (int k = 0; k < c; k++)
         {
            mul[i][j] += m1[i][k]*m2[k][j] ;
+           printf("%d * %d ",m1[i][k],m2[k][j] );
         }
-        
+        printf("\n");
     }
     
 }
